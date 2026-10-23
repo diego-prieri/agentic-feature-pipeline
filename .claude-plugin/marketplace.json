@@ -1,0 +1,15 @@
+{
+  "name": "agentic-feature-pipeline",
+  "owner": { "name": "Diego Prieri" },
+  "metadata": {
+    "description": "Spec-to-PR and bug-to-fix pipelines for Claude Code, built from single-purpose subagents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "feature-pipeline",
+      "source": "./plugins/feature-pipeline",
+      "description": "/spec, /build, /triage and /fix commands with their subagents and a conventions template."
+    }
+  ]
+}

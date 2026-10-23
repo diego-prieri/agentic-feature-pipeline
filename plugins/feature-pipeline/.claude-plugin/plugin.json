@@ -1,0 +1,8 @@
+{
+  "name": "feature-pipeline",
+  "version": "0.1.0",
+  "description": "Spec-to-PR and bug-to-fix pipelines: orchestrator commands that coordinate single-purpose subagents through files on disk.",
+  "author": { "name": "Diego Prieri" },
+  "license": "MIT",
+  "keywords": ["agents", "subagents", "spec-driven-development", "orchestration", "claude-code"]
+}
